@@ -1,0 +1,83 @@
+data_89450-ICSD
+#?2010 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+#Commerce on behalf of the United States.  All rights reserved.
+_database_code_ICSD                89450
+_audit_creation_date               2002/04/01
+_audit_update_record               2005/10/01
+_chemical_name_systematic
+;
+Copper(I) Phosphorus Sulfide Bromide (6/1/5/1)
+;
+_chemical_formula_structural       'Cu6 P S5 Br'
+_chemical_formula_sum              'Br1 Cu6 P1 S5'
+_publ_section_title
+;
+X-ray study of the superionic phase transition in Cu6 P S5 Br
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Solid State Ionics' 1999 119 31 36 SSIOD3
+2 'Golden Book of Phase Transitions, Wroclaw' 2002 1 1 123 GBOPT5
+_publ_author_name
+;
+Haznar, A.;Pietraszko, A.;Studenyak, I.P.
+;
+_cell_length_a                     11.8147(4)
+_cell_length_b                     6.8160(2)
+_cell_length_c                     11.9200(3)
+_cell_angle_alpha                  90.
+_cell_angle_beta                   109.391(3)
+_cell_angle_gamma                  90.
+_cell_volume                       905.46
+_cell_formula_units_Z              4
+_symmetry_space_group_name_H-M     'C 1 c 1'
+_symmetry_Int_Tables_number        9
+_refine_ls_R_factor_all            .045
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'x, -y, z+.5'
+  2	'x, y, z'
+  3	'x+.5, -y+.5, z+.5'
+  4	'x+.5, y+.5, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Br1-	-1
+Cu1+	1
+P5+	5
+S2-	-2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_B_iso_or_equiv
+Cu1 Cu1+ 4 a 0.999(3) 0.152(3) 0.388(3) 1. 0 0.9 
+Cu2 Cu1+ 4 a 0.701(3) 0.915(4) 0.888(2) 1. 0 0.9 
+Cu3 Cu1+ 4 a 0.819(3) 0.533(5) 0.385(3) 1. 0 0.9 
+Cu4 Cu1+ 4 a 0.770(3) 0.766(4) 0.119(2) 1. 0 0.9 
+Cu5 Cu1+ 4 a 0.996(3) 0.967(4) 0.103(2) 1. 0 0.9 
+Cu6 Cu1+ 4 a 0.984(3) 0.478(5) 0.613(2) 1. 0 0.9 
+P1 P5+ 4 a 0.747 0.753 0.624 1. 0 0.3 
+S1 S2- 4 a 0.684(5) 0.994(9) 0.695(4) 1. 0 0.5 
+S2 S2- 4 a 0.693(5) 0.504(10) 0.184(4) 1. 0 0.5 
+S3 S2- 4 a 0.934(5) 0.238(8) 0.185(4) 1. 0 0.5 
+S4 S2- 4 a 0.691(5) 0.751(12) 0.440(2) 1. 0 0.5 
+S5 S2- 4 a 0.854(3) 0.266(8) 0.488(2) 1. 0 0.5 
+Br1 Br1- 4 a 0.000(2) 0.751(5) 0.371(1) 1. 0 0.8 
+
+#End of data_89450-ICSD
+
+

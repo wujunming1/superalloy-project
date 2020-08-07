@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.DataDescriptionModelMapper">
+  <resultMap id="BaseResultMap" type="model.insert.DataDescriptionModel">
+    <result column="d_abstract" jdbcType="VARCHAR" property="dAbstract" />
+    <result column="d_submission_name" jdbcType="VARCHAR" property="dSubmissionName" />
+    <result column="d_submission_unit" jdbcType="VARCHAR" property="dSubmissionUnit" />
+    <result column="d_proofreader" jdbcType="VARCHAR" property="dProofreader" />
+    <result column="d_size_m" jdbcType="INTEGER" property="dSizeM" />
+    <result column="d_size_n" jdbcType="INTEGER" property="dSizeN" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="telephoneNumber" jdbcType="VARCHAR" property="telephoneNumber" />
+    <result column="keywords" jdbcType="VARCHAR" property="keywords" />
+    <result column="contact_address" jdbcType="VARCHAR" property="contactAddress" />
+    <result column="d_submission_date" jdbcType="DATE" property="dSubmissionDate" />
+    <result column="domain_type" jdbcType="VARCHAR" property="domainType" />
+    <result column="area_type" jdbcType="VARCHAR" property="areaType" />
+    <result column="d_data_description_id" jdbcType="INTEGER" property="dDataDescriptionId" />
+    <result column="eCode" jdbcType="VARCHAR" property="eCode" />
+    <result column="record_name" jdbcType="VARCHAR" property="recordName" />
+    <result column="user_eCode" jdbcType="VARCHAR" property="userECode" />
+    <result column="related_literature" jdbcType="VARCHAR" property="relatedLiterature" />
+  </resultMap>
+  <insert id="insert" parameterType="model.insert.DataDescriptionModel">
+    insert into data_description (d_abstract, d_submission_name, d_submission_unit, 
+      d_proofreader, d_size_m, d_size_n, 
+      email,telephoneNumber, keywords, contact_address, 
+      d_submission_date, domain_type,  
+      area_type, d_data_description_id,eCode,record_name,user_eCode,related_literature)
+    values (#{dAbstract,jdbcType=VARCHAR}, #{dSubmissionName,jdbcType=VARCHAR}, #{dSubmissionUnit,jdbcType=VARCHAR}, 
+      #{dProofreader,jdbcType=VARCHAR}, #{dSizeM,jdbcType=INTEGER}, #{dSizeN,jdbcType=INTEGER}, 
+      #{email,jdbcType=VARCHAR},#{telephoneNumber,jdbcType=VARCHAR}, #{keywords,jdbcType=VARCHAR}, #{contactAddress,jdbcType=VARCHAR}, 
+      #{dSubmissionDate,jdbcType=DATE}, #{domainType,jdbcType=VARCHAR},
+      #{areaType,jdbcType=VARCHAR},#{dDataDescriptionId,jdbcType=INTEGER},#{eCode,jdbcType=VARCHAR},#{recordName,jdbcType=VARCHAR},#{userECode,jdbcType=VARCHAR},#{relatedLiterature,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="model.insert.DataDescriptionModel">
+    insert into data_description
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="dAbstract != null">
+        d_abstract,
+      </if>
+      <if test="dSubmissionName != null">
+        d_submission_name,
+      </if>
+      <if test="dSubmissionUnit != null">
+        d_submission_unit,
+      </if>
+      <if test="dProofreader != null">
+        d_proofreader,
+      </if>
+      <if test="dSizeM != null">
+        d_size_m,
+      </if>
+      <if test="dSizeN != null">
+        d_size_n,
+      </if>
+      <if test="email != null">
+        email,
+      </if>
+      <if test="telephoneNumber != null">
+        telephoneNumber,
+      </if>
+      <if test="keywords != null">
+        keywords,
+      </if>
+      <if test="contactAddress != null">
+        contact_address,
+      </if>
+      <if test="dSubmissionDate != null">
+        d_submission_date,
+      </if>
+      <if test="domainType != null">
+        domain_type,
+      </if>
+      <if test="areaType != null">
+        area_type,
+      </if>
+      <if test="dDataDescriptionId != null">
+        d_data_description_id,
+      </if>
+      <if test="eCode != null">
+        eCode,
+      </if>
+      <if test="recordName != null">
+        record_name,
+      </if>
+      <if test="userECode != null">
+        user_eCode,
+      </if>
+      <if test="relatedLiterature != null">
+        related_literature,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="dAbstract != null">
+        #{dAbstract,jdbcType=VARCHAR},
+      </if>
+      <if test="dSubmissionName != null">
+        #{dSubmissionName,jdbcType=VARCHAR},
+      </if>
+      <if test="dSubmissionUnit != null">
+        #{dSubmissionUnit,jdbcType=VARCHAR},
+      </if>
+      <if test="dProofreader != null">
+        #{dProofreader,jdbcType=VARCHAR},
+      </if>
+      <if test="dSizeM != null">
+        #{dSizeM,jdbcType=INTEGER},
+      </if>
+      <if test="dSizeN != null">
+        #{dSizeN,jdbcType=INTEGER},
+      </if>
+      <if test="email != null">
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="telephoneNumber != null">
+        #{telephoneNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="keywords != null">
+        #{keywords,jdbcType=VARCHAR},
+      </if>
+      <if test="contactAddress != null">
+        #{contactAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="dSubmissionDate != null">
+        #{dSubmissionDate,jdbcType=DATE},
+      </if>
+      <if test="domainType != null">
+        #{domainType,jdbcType=VARCHAR},
+      </if>
+      <if test="areaType != null">
+        #{areaType,jdbcType=VARCHAR},
+      </if>
+      <if test="dDataDescriptionId != null">
+        #{dDataDescriptionId,jdbcType=INTEGER},
+      </if>
+      <if test="eCode != null">
+        #{eCode,jdbcType=VARCHAR},
+      </if>
+      <if test="recordName != null">
+        #{recordName,jdbcType=VARCHAR},
+      </if>
+      <if test="userECode != null">
+        #{userECode,jdbcType=VARCHAR},
+      </if>
+      <if test="relatedLiterature != null">
+        related_literature,
+      </if>
+    </trim>
+  </insert>
+  
+</mapper>

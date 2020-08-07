@@ -1,0 +1,105 @@
+data_280374-ICSD
+#?2010 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+#Commerce on behalf of the United States.  All rights reserved.
+_database_code_ICSD                280374
+_audit_creation_date               2002/04/01
+_audit_update_record               2005/10/01
+_chemical_name_systematic
+;
+Heptacopper(I) Tetraselenophosphate(V) Diselenide - Beta
+;
+_chemical_formula_structural       'Cu7 (P Se4) Se2'
+_chemical_formula_sum              'Cu7 P1 Se6'
+_chemical_name_mineral             Argyrodite
+_publ_section_title
+;
+Structures and phase transitions of the A7 P Se6 (A= Ag, Cu) 
+argyrodite-type ionic conductors. II. beta- and gamma-Cu7 P Se6
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Acta Crystallographica B (39,1983-)' 2000 56 402 408 ASBSDK
+2 'Golden Book of Phase Transitions, Wroclaw' 2002 1 1 123 GBOPT5
+_publ_author_name
+;
+Gaudin, E.;Boucher, F.;Petricek, V.;Taulelle, F.;Evain, M.
+;
+_cell_length_a                     10.1080(4)
+_cell_length_b                     10.1080(4)
+_cell_length_c                     10.1080(4)
+_cell_angle_alpha                  90.
+_cell_angle_beta                   90.
+_cell_angle_gamma                  90.
+_cell_volume                       1032.75
+_cell_formula_units_Z              4
+_symmetry_space_group_name_H-M     'P 21 3'
+_symmetry_Int_Tables_number        198
+_refine_ls_R_factor_all            .0297
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'-z+.5, -x, y+.5'
+  2	'-y+.5, -z, x+.5'
+  3	'-x+.5, -y, z+.5'
+  4	'-z, x+.5, -y+.5'
+  5	'-y, z+.5, -x+.5'
+  6	'-x, y+.5, -z+.5'
+  7	'z+.5, -x+.5, -y'
+  8	'y+.5, -z+.5, -x'
+  9	'x+.5, -y+.5, -z'
+ 10	'z, x, y'
+ 11	'y, z, x'
+ 12	'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Cu1+	1
+P5+	5
+Se2-	-2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+P1 P5+ 4 a 0.7485(2) 0.7485 0.7485 1. 0 
+Se1 Se2- 4 a 0.87477(9) 0.87477 0.87477 1. 0 
+Se2 Se2- 12 b 0.37079(11) 0.37645(11) 0.88083(10) 1. 0 
+Se3 Se2- 4 a 0.23601(11) 0.23601 0.23601 1. 0 
+Se4 Se2- 4 a 0.49079(12) 0.49079 0.49079 1. 0 
+Cu1 Cu1+ 12 b 0.0720(3) -.0892(3) -.2696(3) 1. 0 
+Cu2 Cu1+ 12 b 0.0024(9) 0.0034(9) 0.2795(2) 0.68 0 
+Cu3 Cu1+ 12 b 0.0636(11) 0.0578(8) 0.2639(8) 0.32 0 
+Cu4 Cu1+ 4 a 0.3608(5) 0.3608 0.3608 1. 0 
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+P1 P5+ 0.0103(4) 0.0103 0.0103 -.0002(9) -.0002 -.0002
+Se1 Se2- 0.0148(4) 0.0148 0.0148 -.0026(4) -.0026 -.0026
+Se2 Se2- 0.0132(5) 0.0145(5) 0.0124(5) -.0029(4) -.0018(3) -.0026(3)
+Se3 Se2- 0.0210(4) 0.021 0.021 0.0022(4) 0.0022 0.0022
+Se4 Se2- 0.0221(4) 0.0221 0.0221 0.0041(4) 0.0041 0.0041
+Cu1 Cu1+ 0.0316(9) 0.0495(11) 0.0579(11) -.0029(8) 0.0025(8) 0.0003(10)
+Cu2 Cu1+ 0.077(5) 0.080(5) 0.0213(9) 0.056(4) 0.010(2) 0.005(2)
+Cu3 Cu1+ 0.036(4) 0.032(3) 0.028(3) 0.005(3) 0.004(3) -.003(2)
+Cu4 Cu1+ 0.199(5) 0.199 0.199 -.088(3) -.088 -.088
+#End of data_280374-ICSD
+
+

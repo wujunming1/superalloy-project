@@ -1,0 +1,102 @@
+data_54055-ICSD
+#?2010 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+#Commerce on behalf of the United States.  All rights reserved.
+_database_code_ICSD                54055
+_audit_creation_date               1999/06/02
+_audit_update_record               2010/08/01
+_chemical_name_systematic
+;
+Heptasilver Tetraselenidophosphate(V) Diselenide - Beta
+;
+_chemical_formula_structural       'Ag7 (P Se4) Se2'
+_chemical_formula_sum              'Ag7 P1 Se6'
+_publ_section_title
+;
+Structure and phase transitions of the A7 P Se6 (A= Ag, Cu) 
+argyrodite-type ionic conductors. I. Ag7 P Se6
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Acta Crystallographica B (39,1983-)' 1998 54 376 383 ASBSDK
+2 'Golden Book of Phase Transitions, Wroclaw' 2002 1 1 123 GBOPT5
+_publ_author_name
+;
+Evain, M.;Gaudin, E.;Boucher, F.;Petricek, V.;Taulelle, F.
+;
+_cell_length_a                     10.772(2)
+_cell_length_b                     10.772(2)
+_cell_length_c                     10.772(2)
+_cell_angle_alpha                  90.
+_cell_angle_beta                   90.
+_cell_angle_gamma                  90.
+_cell_volume                       1249.94
+_cell_formula_units_Z              4
+_symmetry_space_group_name_H-M     'P 21 3'
+_symmetry_Int_Tables_number        198
+_refine_ls_R_factor_all            .0267
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'-z+.5, -x, y+.5'
+  2	'-y+.5, -z, x+.5'
+  3	'-x+.5, -y, z+.5'
+  4	'-z, x+.5, -y+.5'
+  5	'-y, z+.5, -x+.5'
+  6	'-x, y+.5, -z+.5'
+  7	'z+.5, -x+.5, -y'
+  8	'y+.5, -z+.5, -x'
+  9	'x+.5, -y+.5, -z'
+ 10	'z, x, y'
+ 11	'y, z, x'
+ 12	'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ag1+	1
+P5+	5
+Se2-	-2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+P1 P5+ 4 a 0.75215(15) 0.75215(15) 0.75215(15) 1. 0 
+Se1 Se2- 4 a 0.87180(6) 0.87180(6) 0.87180(6) 1. 0 
+Se2 Se2- 12 b 0.35458(6) 0.37584(6) 0.87278(6) 1. 0 
+Se3 Se2- 4 a 0.21447(7) 0.21447(7) 0.21447(7) 1. 0 
+Se4 Se2- 4 a 0.48321(7) 0.48321(7) 0.48321(7) 1. 0 
+Ag1 Ag1+ 12 b 0.07173(14) 0.8972(2) 0.7276(2) 1. 0 
+Ag2 Ag1+ 12 b 0.0195(2) 0.00967(15) 0.27518(13) 1. 0 
+Ag3 Ag1+ 4 a 0.3488(2) 0.3488(2) 0.3488(2) 1. 0 
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+P1 P5+ 0.0126(5) 0.0126(5) 0.0126(5) -.0009(6) -.0009(6) -.0009(6)
+Se1 Se2- 0.0183(2) 0.0183(2) 0.0183(2) -.0029(3) -.0029(3) -.0029(3)
+Se2 Se2- 0.0187(3) 0.0187(3) 0.0171(3) -.0026(3) -.0018(3) -.0025(3)
+Se3 Se2- 0.0235(3) 0.0235(3) 0.0235(3) -.0008(3) -.0008(3) -.0008(3)
+Se4 Se2- 0.0229(3) 0.0229(3) 0.0229(3) -.0016(3) -.0016(3) -.0016(3)
+Ag1 Ag1+ 0.0308(4) 0.0623(6) 0.0471(4) 0.0030(4) 0.0065(3) 0.0038(4)
+Ag2 Ag1+ 0.0582(5) 0.0570(5) 0.0289(3) 0.0265(4) 0.0003(4) -.0065(3)
+Ag3 Ag1+ 0.0754(6) 0.0754(6) 0.0754(6) -.0276(5) -.0276(5) -.0276(5)
+#End of data_54055-ICSD
+
+

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.PatentDataModelMapper" >
+  <resultMap id="BaseResultMap" type="model.insert.PatentDataModel" >
+    <result column="Alloy_Index" property="alloyIndex" jdbcType="INTEGER" />
+    <result column="Ni_wt" property="niWt" jdbcType="DOUBLE" />
+    <result column="Re_wt" property="reWt" jdbcType="DOUBLE" />
+    <result column="Co_wt" property="coWt" jdbcType="DOUBLE" />
+    <result column="Al_wt" property="alWt" jdbcType="DOUBLE" />
+    <result column="Ti_wt" property="tiWt" jdbcType="DOUBLE" />
+    <result column="W_wt" property="wWt" jdbcType="DOUBLE" />
+    <result column="Mo_wt" property="moWt" jdbcType="DOUBLE" />
+    <result column="Cr_wt" property="crWt" jdbcType="DOUBLE" />
+    <result column="Ta_wt" property="taWt" jdbcType="DOUBLE" />
+    <result column="C_wt" property="cWt" jdbcType="DOUBLE" />
+    <result column="B_wt" property="bWt" jdbcType="DOUBLE" />
+    <result column="Y_wt" property="yWt" jdbcType="DOUBLE" />
+    <result column="Nb_wt" property="nbWt" jdbcType="DOUBLE" />
+    <result column="Hf_wt" property="hfWt" jdbcType="DOUBLE" />
+    <result column="solution_treatment_time" property="solutionTreatmentTime" jdbcType="INTEGER" />
+    <result column="first_step_aging_treatment_time" property="firstStepAgingTreatmentTime" jdbcType="INTEGER" />
+    <result column="second_step_aging_treatment_time" property="secondStepAgingTreatmentTime" jdbcType="INTEGER" />
+    <result column="solution_treatment_temperature" property="solutionTreatmentTemperature" jdbcType="INTEGER" />
+    <result column="first_step_aging_treatment_temperature" property="firstStepAgingTreatmentTemperature" jdbcType="INTEGER" />
+    <result column="second_step_aging_treatment_temperature" property="secondStepAgingTreatmentTemperature" jdbcType="INTEGER" />
+    <result column="temperature" property="temperature" jdbcType="INTEGER" />
+    <result column="applied_Stress" property="appliedStress" jdbcType="DOUBLE" />
+    <result column="stackingEnergy" property="stackingenergy" jdbcType="DOUBLE" />
+    <result column="DL" property="dl" jdbcType="VARCHAR" />
+    <result column="G" property="g" jdbcType="DOUBLE" />
+    <result column="L" property="l" jdbcType="DOUBLE" />
+    <result column="Ni3Al_fraction" property="ni3alFraction" jdbcType="DOUBLE" />
+    <result column="creep_life" property="creepLife" jdbcType="DOUBLE" />
+  </resultMap>
+  <insert id="insert" parameterType="model.insert.PatentDataModel" >
+    insert into patent_data (Alloy_Index, Ni_wt, Re_wt, 
+      Co_wt, Al_wt, Ti_wt, W_wt, 
+      Mo_wt, Cr_wt, Ta_wt, C_wt, 
+      B_wt, Y_wt, Nb_wt, Hf_wt, 
+      solution_treatment_time, first_step_aging_treatment_time, 
+      second_step_aging_treatment_time, solution_treatment_temperature, 
+      first_step_aging_treatment_temperature, second_step_aging_treatment_temperature, 
+      temperature, applied_Stress, stackingEnergy, 
+      DL, G, L, Ni3Al_fraction, 
+      creep_life)
+    values (#{alloyIndex,jdbcType=INTEGER}, #{niWt,jdbcType=DOUBLE}, #{reWt,jdbcType=DOUBLE}, 
+      #{coWt,jdbcType=DOUBLE}, #{alWt,jdbcType=DOUBLE}, #{tiWt,jdbcType=DOUBLE}, #{wWt,jdbcType=DOUBLE}, 
+      #{moWt,jdbcType=DOUBLE}, #{crWt,jdbcType=DOUBLE}, #{taWt,jdbcType=DOUBLE}, #{cWt,jdbcType=DOUBLE}, 
+      #{bWt,jdbcType=DOUBLE}, #{yWt,jdbcType=DOUBLE}, #{nbWt,jdbcType=DOUBLE}, #{hfWt,jdbcType=DOUBLE}, 
+      #{solutionTreatmentTime,jdbcType=INTEGER}, #{firstStepAgingTreatmentTime,jdbcType=INTEGER}, 
+      #{secondStepAgingTreatmentTime,jdbcType=INTEGER}, #{solutionTreatmentTemperature,jdbcType=INTEGER}, 
+      #{firstStepAgingTreatmentTemperature,jdbcType=INTEGER}, #{secondStepAgingTreatmentTemperature,jdbcType=INTEGER}, 
+      #{temperature,jdbcType=INTEGER}, #{appliedStress,jdbcType=DOUBLE}, #{stackingenergy,jdbcType=DOUBLE}, 
+      #{dl,jdbcType=VARCHAR}, #{g,jdbcType=DOUBLE}, #{l,jdbcType=DOUBLE}, #{ni3alFraction,jdbcType=DOUBLE}, 
+      #{creepLife,jdbcType=DOUBLE})
+  </insert>
+  <insert id="insertSelective" parameterType="model.insert.PatentDataModel" >
+    insert into patent_data
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="alloyIndex != null" >
+        Alloy_Index,
+      </if>
+      <if test="niWt != null" >
+        Ni_wt,
+      </if>
+      <if test="reWt != null" >
+        Re_wt,
+      </if>
+      <if test="coWt != null" >
+        Co_wt,
+      </if>
+      <if test="alWt != null" >
+        Al_wt,
+      </if>
+      <if test="tiWt != null" >
+        Ti_wt,
+      </if>
+      <if test="wWt != null" >
+        W_wt,
+      </if>
+      <if test="moWt != null" >
+        Mo_wt,
+      </if>
+      <if test="crWt != null" >
+        Cr_wt,
+      </if>
+      <if test="taWt != null" >
+        Ta_wt,
+      </if>
+      <if test="cWt != null" >
+        C_wt,
+      </if>
+      <if test="bWt != null" >
+        B_wt,
+      </if>
+      <if test="yWt != null" >
+        Y_wt,
+      </if>
+      <if test="nbWt != null" >
+        Nb_wt,
+      </if>
+      <if test="hfWt != null" >
+        Hf_wt,
+      </if>
+      <if test="solutionTreatmentTime != null" >
+        solution_treatment_time,
+      </if>
+      <if test="firstStepAgingTreatmentTime != null" >
+        first_step_aging_treatment_time,
+      </if>
+      <if test="secondStepAgingTreatmentTime != null" >
+        second_step_aging_treatment_time,
+      </if>
+      <if test="solutionTreatmentTemperature != null" >
+        solution_treatment_temperature,
+      </if>
+      <if test="firstStepAgingTreatmentTemperature != null" >
+        first_step_aging_treatment_temperature,
+      </if>
+      <if test="secondStepAgingTreatmentTemperature != null" >
+        second_step_aging_treatment_temperature,
+      </if>
+      <if test="temperature != null" >
+        temperature,
+      </if>
+      <if test="appliedStress != null" >
+        applied_Stress,
+      </if>
+      <if test="stackingenergy != null" >
+        stackingEnergy,
+      </if>
+      <if test="dl != null" >
+        DL,
+      </if>
+      <if test="g != null" >
+        G,
+      </if>
+      <if test="l != null" >
+        L,
+      </if>
+      <if test="ni3alFraction != null" >
+        Ni3Al_fraction,
+      </if>
+      <if test="creepLife != null" >
+        creep_life,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="alloyIndex != null" >
+        #{alloyIndex,jdbcType=INTEGER},
+      </if>
+      <if test="niWt != null" >
+        #{niWt,jdbcType=DOUBLE},
+      </if>
+      <if test="reWt != null" >
+        #{reWt,jdbcType=DOUBLE},
+      </if>
+      <if test="coWt != null" >
+        #{coWt,jdbcType=DOUBLE},
+      </if>
+      <if test="alWt != null" >
+        #{alWt,jdbcType=DOUBLE},
+      </if>
+      <if test="tiWt != null" >
+        #{tiWt,jdbcType=DOUBLE},
+      </if>
+      <if test="wWt != null" >
+        #{wWt,jdbcType=DOUBLE},
+      </if>
+      <if test="moWt != null" >
+        #{moWt,jdbcType=DOUBLE},
+      </if>
+      <if test="crWt != null" >
+        #{crWt,jdbcType=DOUBLE},
+      </if>
+      <if test="taWt != null" >
+        #{taWt,jdbcType=DOUBLE},
+      </if>
+      <if test="cWt != null" >
+        #{cWt,jdbcType=DOUBLE},
+      </if>
+      <if test="bWt != null" >
+        #{bWt,jdbcType=DOUBLE},
+      </if>
+      <if test="yWt != null" >
+        #{yWt,jdbcType=DOUBLE},
+      </if>
+      <if test="nbWt != null" >
+        #{nbWt,jdbcType=DOUBLE},
+      </if>
+      <if test="hfWt != null" >
+        #{hfWt,jdbcType=DOUBLE},
+      </if>
+      <if test="solutionTreatmentTime != null" >
+        #{solutionTreatmentTime,jdbcType=INTEGER},
+      </if>
+      <if test="firstStepAgingTreatmentTime != null" >
+        #{firstStepAgingTreatmentTime,jdbcType=INTEGER},
+      </if>
+      <if test="secondStepAgingTreatmentTime != null" >
+        #{secondStepAgingTreatmentTime,jdbcType=INTEGER},
+      </if>
+      <if test="solutionTreatmentTemperature != null" >
+        #{solutionTreatmentTemperature,jdbcType=INTEGER},
+      </if>
+      <if test="firstStepAgingTreatmentTemperature != null" >
+        #{firstStepAgingTreatmentTemperature,jdbcType=INTEGER},
+      </if>
+      <if test="secondStepAgingTreatmentTemperature != null" >
+        #{secondStepAgingTreatmentTemperature,jdbcType=INTEGER},
+      </if>
+      <if test="temperature != null" >
+        #{temperature,jdbcType=INTEGER},
+      </if>
+      <if test="appliedStress != null" >
+        #{appliedStress,jdbcType=DOUBLE},
+      </if>
+      <if test="stackingenergy != null" >
+        #{stackingenergy,jdbcType=DOUBLE},
+      </if>
+      <if test="dl != null" >
+        #{dl,jdbcType=VARCHAR},
+      </if>
+      <if test="g != null" >
+        #{g,jdbcType=DOUBLE},
+      </if>
+      <if test="l != null" >
+        #{l,jdbcType=DOUBLE},
+      </if>
+      <if test="ni3alFraction != null" >
+        #{ni3alFraction,jdbcType=DOUBLE},
+      </if>
+      <if test="creepLife != null" >
+        #{creepLife,jdbcType=DOUBLE},
+      </if>
+    </trim>
+  </insert>
+</mapper>

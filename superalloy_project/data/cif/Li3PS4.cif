@@ -1,0 +1,41 @@
+#======================================================================
+
+# CRYSTAL DATA
+
+#----------------------------------------------------------------------
+
+data_VESTA_phase_1
+
+
+_chemical_name_common                  ''
+_cell_length_a                         7.55000
+_cell_length_b                         6.45000
+_cell_length_c                         6.05000
+_cell_angle_alpha                      90
+_cell_angle_beta                       90
+_cell_angle_gamma                      90
+_space_group_name_H-M_alt              'P m n 21'
+_space_group_IT_number                 31
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+   '-x+1/2, -y, z+1/2'
+   'x+1/2, -y, z+1/2'
+   '-x, y, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   Li1        1.0     0.243000      0.317000     -0.000000     Uiso  1.000000 Li
+   S2         1.0     0.221000      0.670000      0.888000     Uiso  1.000000 S
+   Li3        1.0    -0.000000      0.150000      0.488000     Uiso  1.000000 Li
+   P4         1.0    -0.000000      0.819000      0.999000     Uiso  1.000000 P
+   S5         1.0    -0.000000      0.118000      0.886000     Uiso  1.000000 S
+   S6         1.0    -0.000000      0.811000      0.337000     Uiso  1.000000 S

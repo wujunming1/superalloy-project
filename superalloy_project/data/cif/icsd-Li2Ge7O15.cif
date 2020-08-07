@@ -1,0 +1,83 @@
+data_23552-ICSD
+#?2010 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+#Commerce on behalf of the United States.  All rights reserved.
+_database_code_ICSD                23552
+_audit_creation_date               1980/1/1/星期二
+_audit_update_record               1987/9/18/星期五
+_chemical_name_systematic          'Lithium Tecto-15-oxoheptagermanate'
+_chemical_formula_structural       'Li2 Ge7 O15'
+_chemical_formula_sum              'Ge7 Li2 O15'
+_publ_section_title
+;
+Die Kristallstruktur des Lithiumheptagermanats Li2 (Ge7 O15)
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Monatshefte fuer Chemie (-108,1977)' 1970 101 46 56 MOCHAP
+_publ_author_name
+;
+Voellenkle, H.;Wittmann, A.;Nowotny, H.N.
+;
+_cell_length_a                     7.36
+_cell_length_b                     16.76
+_cell_length_c                     9.69
+_cell_angle_alpha                  90.
+_cell_angle_beta                   90.
+_cell_angle_gamma                  90.
+_cell_volume                       1195.3
+_cell_formula_units_Z              4
+_symmetry_space_group_name_H-M     'P b c n'
+_symmetry_Int_Tables_number        60
+_refine_ls_R_factor_all            .072
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'x, -y, z+.5'
+  2	'-x+.5, y+.5, z'
+  3	'x+.5, y+.5, -z+.5'
+  4	'-x, -y, -z'
+  5	'-x, y, -z+.5'
+  6	'x+.5, -y+.5, -z'
+  7	'-x+.5, -y+.5, z+.5'
+  8	'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ge4+	4
+Li1+	1
+O2-	-2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_B_iso_or_equiv
+Li1 Li1+ 4 b 0 0.5 0 1. 0 0.99 
+Li2 Li1+ 4 c 0 0.2369(42) 0.25 1. 0 2.68 
+Ge1 Ge4+ 4 c 0 0.4133(2) 0.25 1. 0 0.71 
+Ge2 Ge4+ 8 d 0.2138(3) 0.0582(1) 0.2501(3) 1. 0 0.76 
+Ge3 Ge4+ 8 d 0.2844(4) 0.3403(1) 0.0328(3) 1. 0 0.66 
+Ge4 Ge4+ 8 d 0.2872(4) 0.3446(2) 0.4713(3) 1. 0 0.79 
+O1 O2- 4 c 0 0.0143(15) 0.25 1. 0 2.11 
+O2 O2- 8 d 0.2837(23) 0.0882(9) 0.4097(16) 1. 0 0.71 
+O3 O2- 8 d 0.1893(23) 0.1482(8) 0.1518(15) 1. 0 0.45 
+O4 O2- 8 d 0.1978(23) 0.2476(9) 0.4418(15) 1. 0 0.71 
+O5 O2- 8 d 0.1425(23) 0.3283(8) 0.1704(14) 1. 0 0.35 
+O6 O2- 8 d 0.5047(34) 0.3578(10) 0.0936(19) 1. 0 1.99 
+O7 O2- 8 d 0.1475(23) 0.4169(8) 0.4083(15) 1. 0 0.57 
+O8 O2- 8 d 0.1416(21) 0.4928(7) 0.1676(13) 1. 0 0 
+
+#End of data_23552-ICSD
+
+

@@ -1,0 +1,129 @@
+data_62176-ICSD
+#?2010 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+#Commerce on behalf of the United States.  All rights reserved.
+_database_code_ICSD                62176
+_audit_creation_date               1988/02/22
+_audit_update_record               2006/04/01
+_chemical_name_systematic
+;
+Sodium Scandium Zirconium Silicate Phosphate(V) (2.94/1/1/1/2)
+;
+_chemical_formula_structural       'Na2.94 Sc Zr (Si O4) (P O4)2'
+_chemical_formula_sum              'Na2.94 O12 P2 Sc1 Si1 Zr1'
+_chemical_name_mineral             Nasicon
+_publ_section_title
+;
+The preparation, structure, and conductivity of scandium-substituted 
+NASICONs.
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of Solid State Chemistry' 1985 60 172 181 JSSCBI
+_publ_author_name
+;
+Subramanian, M.A.;Rudolf, P.R.;Clearfield, A.
+;
+_cell_length_a                     8.9848(1)
+_cell_length_b                     8.9848(1)
+_cell_length_c                     22.6113(2)
+_cell_angle_alpha                  90.
+_cell_angle_beta                   90.
+_cell_angle_gamma                  120.
+_cell_volume                       1580.79
+_cell_formula_units_Z              6
+_symmetry_space_group_name_H-M     'R -3 c H'
+_symmetry_Int_Tables_number        167
+_refine_ls_R_factor_all            .132
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'x-y, -y, -z+.5'
+  2	'-x, -x+y, -z+.5'
+  3	'y, x, -z+.5'
+  4	'x-y, x, -z'
+  5	'y, -x+y, -z'
+  6	'-x, -y, -z'
+  7	'-x+y, y, z+.5'
+  8	'x, x-y, z+.5'
+  9	'-y, -x, z+.5'
+ 10	'-x+y, -x, z'
+ 11	'-y, x-y, z'
+ 12	'x, y, z'
+ 13	'x-y+.6666, -y+.3333, -z+.8333'
+ 14	'x-y+.3333, -y+.6666, -z+.1666'
+ 15	'-x+.6666, -x+y+.3333, -z+.8333'
+ 16	'-x+.3333, -x+y+.6666, -z+.1666'
+ 17	'y+.6666, x+.3333, -z+.8333'
+ 18	'y+.3333, x+.6666, -z+.1666'
+ 19	'x-y+.6666, x+.3333, -z+.3333'
+ 20	'x-y+.3333, x+.6666, -z+.6666'
+ 21	'y+.6666, -x+y+.3333, -z+.3333'
+ 22	'y+.3333, -x+y+.6666, -z+.6666'
+ 23	'-x+.6666, -y+.3333, -z+.3333'
+ 24	'-x+.3333, -y+.6666, -z+.6666'
+ 25	'-x+y+.6666, y+.3333, z+.8333'
+ 26	'-x+y+.3333, y+.6666, z+.1666'
+ 27	'x+.6666, x-y+.3333, z+.8333'
+ 28	'x+.3333, x-y+.6666, z+.1666'
+ 29	'-y+.6666, -x+.3333, z+.8333'
+ 30	'-y+.3333, -x+.6666, z+.1666'
+ 31	'-x+y+.6666, -x+.3333, z+.3333'
+ 32	'-x+y+.3333, -x+.6666, z+.6666'
+ 33	'-y+.6666, x-y+.3333, z+.3333'
+ 34	'-y+.3333, x-y+.6666, z+.6666'
+ 35	'x+.6666, y+.3333, z+.3333'
+ 36	'x+.3333, y+.6666, z+.6666'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Na1+	1
+O2-	-2
+P5+	5
+Sc3+	3
+Si4+	4
+Zr4+	4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+Zr1 Zr4+ 12 c 0 0 0.1487(1) 0.5 0 
+Sc1 Sc3+ 12 c 0 0 0.1487 0.5 0 
+Si1 Si4+ 18 e 0.2954(18) 0 0.25 0.3333 0 
+P1 P5+ 18 e 0.2954(18) 0 0.25 0.6667 0 
+O1 O2- 36 f 0.1850(25) -.0263(30) 0.1954(10) 1. 0 
+O2 O2- 36 f 0.1914(22) 0.1647(27) 0.091(1) 1. 0 
+Na1 Na1+ 6 b 0 0 0 0.854 0 
+Na2 Na1+ 18 e 0.6318 0 0.25 0.694 0 
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Zr1 Zr4+ 0.00386 0.00386 0.02069 0.00193 0 0
+Sc1 Sc3+ 0.00386 0.00386 0.02069 0.00193 0 0
+Si1 Si4+ 0.01019 0.01557 0.01263 0.00779 -.00027 -.0005
+P1 P5+ 0.01019 0.01557 0.01263 0.00779 -.00027 -.0005
+O1 O2- 0.0099 0.01479 0.04231 0.00976 0.00659 0.0038
+O2 O2- 0.0099 0.01479 0.04231 0.00976 0.00659 0.0038
+Na1 Na1+ 0.2911 0.2911 0.04749 0.1455 0 0
+Na2 Na1+ 0.03 0.0263 0.2235 0.01315 0.03742 0.07483
+#End of data_62176-ICSD
+
+

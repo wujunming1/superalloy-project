@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.SysAccountModelMapper">
+  <resultMap id="BaseResultMap" type="entity.SysAccount">
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="occupation" jdbcType="VARCHAR" property="occupation" />
+    <result column="res_domain" jdbcType="VARCHAR" property="resDomain" />
+    <result column="res_direction" jdbcType="INTEGER" property="resDirection" />
+    <result column="contact" jdbcType="INTEGER" property="contact" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="unit" jdbcType="VARCHAR" property="unit" />
+    <result column="user_ecode" jdbcType="VARCHAR" property="userECode" />
+  </resultMap>
+  <insert id="insert" parameterType="entity.SysAccount">
+    insert into user_table (username, password, occupation,
+      res_domain, res_direction, contact, 
+      email,address, unit, user_ecode)
+    values (#{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{occupation,jdbcType=VARCHAR}, 
+      #{resDomain,jdbcType=VARCHAR}, #{resDirection,jdbcType=INTEGER}, #{contact,jdbcType=INTEGER}, 
+      #{email,jdbcType=VARCHAR},#{address,jdbcType=VARCHAR}, #{unit,jdbcType=VARCHAR}, #{userECode,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="entity.SysAccount">
+    insert into user_table
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="username != null">
+        username,
+      </if>
+      <if test="password != null">
+        password,
+      </if>
+      <if test="occupation != null">
+        occupation,
+      </if>
+      <if test="resDomain != null">
+        res_domain,
+      </if>
+      <if test="resDirection != null">
+        res_direction,
+      </if>
+      <if test="contact != null">
+        contact,
+      </if>
+      <if test="email != null">
+        email,
+      </if>
+      <if test="address != null">
+        address,
+      </if>
+      <if test="unit != null">
+        unit,
+      </if>
+      <if test="userECode != null">
+        user_ecode,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="occupation != null">
+        #{occupation,jdbcType=VARCHAR},
+      </if>
+      <if test="resDomain != null">
+        #{res_domain,jdbcType=VARCHAR},
+      </if>
+      <if test="resDirection != null">
+        #{res_direction,jdbcType=INTEGER},
+      </if>
+      <if test="contact != null">
+        #{contact,jdbcType=INTEGER},
+      </if>
+      <if test="email != null">
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="unit != null">
+        #{unit,jdbcType=VARCHAR},
+      </if>
+      <if test="userECode != null">
+        #{e_code,jdbcType=VARCHAR},
+      </if>
+     
+    </trim>
+  </insert>
+  
+</mapper>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.DataLiteratureModelMapper">
+  <resultMap id="BaseResultMap" type="model.insert.DataLiteratureModel">
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="titleE" jdbcType="VARCHAR" property="titleE" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="authorE" jdbcType="VARCHAR" property="authorE" />
+    <result column="publish_date" jdbcType="VARCHAR" property="publishDate" />
+    <result column="keywords" jdbcType="VARCHAR" property="keywords" />
+    <result column="keywordsE" jdbcType="VARCHAR" property="keywordsE" />
+    <result column="l_abstract" jdbcType="VARCHAR" property="lAbstract" />
+    <result column="l_abstractE" jdbcType="VARCHAR" property="lAbstractE" />
+    <result column="reference_type" jdbcType="VARCHAR" property="referenceType" />
+    <result column="research_institute" jdbcType="VARCHAR" property="researchInstitute" />
+    <result column="volume" jdbcType="INTEGER" property="volume" />
+    <result column="issue" jdbcType="INTEGER" property="issue" />
+    <result column="doi" jdbcType="VARCHAR" property="doi" />
+    <result column="material_method" jdbcType="VARCHAR" property="materialMethod" />
+    <result column="ml_method" jdbcType="VARCHAR" property="mlMethod" />
+    <result column="file_attachment" jdbcType="VARCHAR" property="fileAttachment" />
+    <result column="start_page" jdbcType="INTEGER" property="startPage" />
+    <result column="end_page" jdbcType="INTEGER" property="endPage" />
+  </resultMap>
+  <insert id="insert" parameterType="model.insert.DataLiteratureModel">
+    insert into data_literature (id, title,titleE, 
+      author,authorE, publish_date, keywords, keywordsE,
+      l_abstract,l_abstractE, reference_type, research_institute, 
+      volume, issue, doi, 
+      material_method, ml_method, file_attachment, 
+      start_page, end_page)
+    values (#{id,jdbcType=VARCHAR}, #{title,jdbcType=VARCHAR}, #{titleE,jdbcType=VARCHAR}, 
+      #{author,jdbcType=VARCHAR}, #{authorE,jdbcType=VARCHAR},STR_TO_DATE(#{publishDate},'%Y-%m-%d')  , #{keywords,jdbcType=VARCHAR}, #{keywordsE,jdbcType=VARCHAR}, <!--#{publishDate,jdbcType=DATE}-->
+      #{lAbstract,jdbcType=VARCHAR},#{lAbstractE,jdbcType=VARCHAR}, #{referenceType,jdbcType=VARCHAR}, #{researchInstitute,jdbcType=VARCHAR}, 
+      #{volume,jdbcType=INTEGER}, #{issue,jdbcType=INTEGER}, #{doi,jdbcType=VARCHAR}, 
+      #{materialMethod,jdbcType=VARCHAR}, #{mlMethod,jdbcType=VARCHAR}, #{fileAttachment,jdbcType=VARCHAR}, 
+      #{startPage,jdbcType=INTEGER}, #{endPage,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="model.insert.DataLiteratureModel">
+    insert into data_literature
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="title != null">
+        title,
+      </if>
+      <if test="titleE != null">
+        titleE,
+      </if>
+      <if test="author != null">
+        author,
+      </if>
+      <if test="authorE != null">
+        authorE,
+      </if>
+      <if test="publishDate != null">
+        publish_date,
+      </if>
+      <if test="keywords != null">
+        keywords,
+      </if>
+      <if test="keywordsE != null">
+        keywordsE,
+      </if>
+      <if test="lAbstract != null">
+        l_abstract,
+      </if>
+      <if test="lAbstractE != null">
+        l_abstractE,
+      </if>
+      <if test="referenceType != null">
+        reference_type,
+      </if>
+      <if test="researchInstitute != null">
+        research_institute,
+      </if>
+      <if test="volume != null">
+        volume,
+      </if>
+      <if test="issue != null">
+        issue,
+      </if>
+      <if test="doi != null">
+        doi,
+      </if>
+      <if test="materialMethod != null">
+        material_method,
+      </if>
+      <if test="mlMethod != null">
+        ml_method,
+      </if>
+      <if test="fileAttachment != null">
+        file_attachment,
+      </if>
+      <if test="startPage != null">
+        start_page,
+      </if>
+      <if test="endPage != null">
+        end_page,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="title != null">
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="titleE != null">
+        #{titleE,jdbcType=VARCHAR},
+      </if>
+      <if test="author != null">
+      #{author,jdbcType=VARCHAR},
+    </if>
+      <if test="authorE != null">
+        #{authorE,jdbcType=VARCHAR},
+      </if>
+      <if test="publishDate != null">
+        STR_TO_DATE(#{publishDate},'%Y-%m-%d') 
+      </if>
+      <if test="keywords != null">
+        #{keywords,jdbcType=VARCHAR},
+      </if>
+      <if test="keywordsE != null">
+        #{keywordsE,jdbcType=VARCHAR},
+      </if>
+      <if test="lAbstract != null">
+        #{lAbstract,jdbcType=VARCHAR},
+      </if>
+      <if test="lAbstractE != null">
+        #{lAbstractE,jdbcType=VARCHAR},
+      </if>
+      <if test="referenceType != null">
+        #{referenceType,jdbcType=VARCHAR},
+      </if>
+      <if test="researchInstitute != null">
+        #{researchInstitute,jdbcType=VARCHAR},
+      </if>
+      <if test="volume != null">
+        #{volume,jdbcType=INTEGER},
+      </if>
+      <if test="issue != null">
+        #{issue,jdbcType=INTEGER},
+      </if>
+      <if test="doi != null">
+        #{doi,jdbcType=VARCHAR},
+      </if>
+      <if test="materialMethod != null">
+        #{materialMethod,jdbcType=VARCHAR},
+      </if>
+      <if test="mlMethod != null">
+        #{mlMethod,jdbcType=VARCHAR},
+      </if>
+      <if test="fileAttachment != null">
+        #{fileAttachment,jdbcType=VARCHAR},
+      </if>
+      <if test="startPage != null">
+        #{startPage,jdbcType=INTEGER},
+      </if>
+      <if test="endPage != null">
+        #{endPage,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  
+ 
+</mapper>

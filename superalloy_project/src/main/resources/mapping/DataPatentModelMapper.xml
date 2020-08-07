@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.DataPatentModelMapper">
+  <resultMap id="BaseResultMap" type="model.insert.DataPatentModel">
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="titleE" jdbcType="VARCHAR" property="titleE" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="authorE" jdbcType="VARCHAR" property="authorE" />
+    <result column="publish_date" jdbcType="VARCHAR" property="publishDate" />
+    <result column="keywords" jdbcType="VARCHAR" property="keywords" />
+    <result column="keywordsE" jdbcType="VARCHAR" property="keywordsE" />
+    <result column="l_abstract" jdbcType="VARCHAR" property="lAbstract" />
+    <result column="l_abstractE" jdbcType="VARCHAR" property="lAbstractE" />
+    <result column="patent_type" jdbcType="VARCHAR" property="patentType" />
+    <result column="patent_institute" jdbcType="VARCHAR" property="patentInstitute" />
+    <result column="patent_number" jdbcType="VARCHAR" property="patentNumber" />
+    <result column="patent_region" jdbcType="VARCHAR" property="patentRegion" />
+    <result column="file_attachment" jdbcType="VARCHAR" property="fileAttachment" />
+  </resultMap>
+  <insert id="insert" parameterType="model.insert.DataPatentModel">
+    insert into data_patent (id, title,titleE,
+      author,authorE, publish_date, keywords, keywordsE,
+      l_abstract,l_abstractE, patent_type, patent_institute,
+    patent_number, patent_region,file_attachment)
+    values (#{id,jdbcType=VARCHAR}, #{title,jdbcType=VARCHAR}, #{titleE,jdbcType=VARCHAR}, 
+      #{author,jdbcType=VARCHAR}, #{authorE,jdbcType=VARCHAR},STR_TO_DATE(#{publishDate},'%Y-%m-%d')  , #{keywords,jdbcType=VARCHAR}, #{keywordsE,jdbcType=VARCHAR}, <!--#{publishDate,jdbcType=DATE}-->
+      #{lAbstract,jdbcType=VARCHAR},#{lAbstractE,jdbcType=VARCHAR}, #{patentType,jdbcType=VARCHAR}, #{patentInstitute,jdbcType=VARCHAR},
+      #{patentNumber,jdbcType=VARCHAR}, #{patentRegion,jdbcType=VARCHAR}, #{fileAttachment,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="model.insert.DataPatentModel">
+    insert into data_patent
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="title != null">
+        title,
+      </if>
+      <if test="titleE != null">
+        titleE,
+      </if>
+      <if test="author != null">
+        author,
+      </if>
+      <if test="authorE != null">
+        authorE,
+      </if>
+      <if test="publishDate != null">
+        publish_date,
+      </if>
+      <if test="keywords != null">
+        keywords,
+      </if>
+      <if test="keywordsE != null">
+        keywordsE,
+      </if>
+      <if test="lAbstract != null">
+        l_abstract,
+      </if>
+      <if test="lAbstractE != null">
+        l_abstractE,
+      </if>
+      <if test="patentType != null">
+        patent_type,
+      </if>
+      <if test="patentInstitute != null">
+        patent_institute,
+      </if>
+      <if test="patentNumber != null">
+        patent_number,
+      </if>
+      <if test="patentRegion != null">
+        patent_region,
+      </if>
+      <if test="fileAttachment != null">
+        file_attachment,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="title != null">
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="titleE != null">
+        #{titleE,jdbcType=VARCHAR},
+      </if>
+      <if test="author != null">
+      #{author,jdbcType=VARCHAR},
+    </if>
+      <if test="authorE != null">
+        #{authorE,jdbcType=VARCHAR},
+      </if>
+      <if test="publishDate != null">
+        STR_TO_DATE(#{publishDate},'%Y-%m-%d') 
+      </if>
+      <if test="keywords != null">
+        #{keywords,jdbcType=VARCHAR},
+      </if>
+      <if test="keywordsE != null">
+        #{keywordsE,jdbcType=VARCHAR},
+      </if>
+      <if test="lAbstract != null">
+        #{lAbstract,jdbcType=VARCHAR},
+      </if>
+      <if test="lAbstractE != null">
+        #{lAbstractE,jdbcType=VARCHAR},
+      </if>
+      <if test="patentType != null">
+        #{patentType,jdbcType=VARCHAR},
+      </if>
+      <if test="patentInstitute != null">
+        #{patentInstitute,jdbcType=VARCHAR},
+      </if>
+      <if test="patentNumber != null">
+        #{patentNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="patentRegion != null">
+        #{patentRegion,jdbcType=VARCHAR},
+      </if>
+      <if test="fileAttachment != null">
+        #{fileAttachment,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  
+ 
+</mapper>

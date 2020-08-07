@@ -1,0 +1,75 @@
+data_240676-ICSD
+#?2010 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+#Commerce on behalf of the United States.  All rights reserved.
+_database_code_ICSD                240676
+_audit_creation_date               2007/8/1/ÐÇÆÚÈý
+_chemical_name_systematic          'Dilithium Calcium Diimide'
+_chemical_formula_structural       'Li2 Ca (N H)2'
+_chemical_formula_sum              'H2 Ca1 Li2 N2'
+_publ_section_title
+;
+Synthesis and Characterization of a New Ternary Imide - Li2 Ca (N H)2
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_journal_issue
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Inorganic Chemistry' 2007 46 2 517 521 INOCAJ
+_publ_author_name
+;
+Wu, G.;Xiong, Z.;Liu, T.;Liu, Y.;Hu, J.;Chen, P.;Feng, Y.;Wee, A.T.S.
+;
+_cell_length_a                     3.5664(3)
+_cell_length_b                     3.5664(3)
+_cell_length_c                     5.9540(8)
+_cell_angle_alpha                  90.
+_cell_angle_beta                   90.
+_cell_angle_gamma                  120.
+_cell_volume                       65.58
+_cell_formula_units_Z              1
+_symmetry_space_group_name_H-M     'P -3 m 1'
+_symmetry_Int_Tables_number        164
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'x-y, -y, -z'
+  2	'-x, -x+y, -z'
+  3	'y, x, -z'
+  4	'x-y, x, -z'
+  5	'y, -x+y, -z'
+  6	'-x, -y, -z'
+  7	'-x+y, y, z'
+  8	'x, x-y, z'
+  9	'-y, -x, z'
+ 10	'-x+y, -x, z'
+ 11	'-y, x-y, z'
+ 12	'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ca2+	2
+H1+	1
+Li1+	1
+N3-	-3
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+Ca1 Ca2+ 1 b 0 0 0.5 1. 0 
+Li1 Li1+ 2 d 0.3333 0.6667 0.8841(22) 1. 0 
+N1 N3- 2 d 0.3333 0.6667 0.2565(15) 1. 0 
+#Position of 2 Elements of H Are Undetermined.
+#End of data_240676-ICSD
+
+

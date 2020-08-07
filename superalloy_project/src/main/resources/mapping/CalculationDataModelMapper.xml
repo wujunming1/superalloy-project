@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.CalculationDataModelMapper">
+  <resultMap id="BaseResultMap" type="model.insert.CalculationDataModel">
+    <result column="material_trademark" jdbcType="VARCHAR" property="materialTrademark" />
+    <result column="m_name" jdbcType="VARCHAR" property="mName" />
+    <result column="cal_software_name" jdbcType="VARCHAR" property="calSoftwareName" />
+    <result column="software_version" jdbcType="VARCHAR" property="softwareVersion" />
+    <result column="cal_formula_name" jdbcType="VARCHAR" property="calFormulaName" />
+    <result column="cal_formula_source" jdbcType="VARCHAR" property="calFormulaSource" />
+    <result column="cal_result_file" jdbcType="VARCHAR" property="calResultFile" />
+    <result column="description_id" jdbcType="INTEGER" property="descriptionId" />
+  </resultMap>
+  <insert id="insert" parameterType="model.insert.CalculationDataModel">
+    insert into calculate_data (material_trademark, m_name, cal_software_name, 
+      software_version, cal_formula_name, cal_formula_source, 
+      cal_result_file, description_id)
+    values (#{materialTrademark,jdbcType=VARCHAR}, #{mName,jdbcType=VARCHAR}, #{calSoftwareName,jdbcType=VARCHAR}, 
+      #{softwareVersion,jdbcType=VARCHAR}, #{calFormulaName,jdbcType=VARCHAR}, #{calFormulaSource,jdbcType=VARCHAR}, 
+      #{calResultFile,jdbcType=VARCHAR}, #{descriptionId,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="model.insert.CalculationDataModel">
+    insert into calculate_data
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="materialTrademark != null">
+        material_trademark,
+      </if>
+      <if test="mName != null">
+        m_name,
+      </if>
+      <if test="calSoftwareName != null">
+        cal_software_name,
+      </if>
+      <if test="softwareVersion != null">
+        software_version,
+      </if>
+      <if test="calFormulaName != null">
+        cal_formula_name,
+      </if>
+      <if test="calFormulaSource != null">
+        cal_formula_source,
+      </if>
+      <if test="calResultFile != null">
+        cal_result_file,
+      </if>
+      <if test="descriptionId != null">
+        description_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="materialTrademark != null">
+        #{materialTrademark,jdbcType=VARCHAR},
+      </if>
+      <if test="mName != null">
+        #{mName,jdbcType=VARCHAR},
+      </if>
+      <if test="calSoftwareName != null">
+        #{calSoftwareName,jdbcType=VARCHAR},
+      </if>
+      <if test="softwareVersion != null">
+        #{softwareVersion,jdbcType=VARCHAR},
+      </if>
+      <if test="calFormulaName != null">
+        #{calFormulaName,jdbcType=VARCHAR},
+      </if>
+      <if test="calFormulaSource != null">
+        #{calFormulaSource,jdbcType=VARCHAR},
+      </if>
+      <if test="calResultFile != null">
+        #{calResultFile,jdbcType=VARCHAR},
+      </if>
+      <if test="descriptionId != null">
+        #{descriptionId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+ 
+ 
+</mapper>

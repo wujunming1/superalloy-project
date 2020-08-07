@@ -1,0 +1,72 @@
+data_100003-custom
+#======================================================================
+
+# CRYSTAL DATA
+
+#----------------------------------------------------------------------
+
+_database_code_custom 100003
+
+_chemical_formula_structural           'Na1.13 Ge1.87 Al0.13 (P O4)3'
+_chemical_formula_sum                  'Na1.13 Ge1.87 Al0.13 P3 O12'
+_chemical_name_common                  ''handmade
+_cell_length_a                         8.14270
+_cell_length_b                         8.14270
+_cell_length_c                         21.50000
+_cell_angle_alpha                      90
+_cell_angle_beta                       90
+_cell_angle_gamma                      120
+_space_group_name_H-M_alt              'R -3'
+_space_group_IT_number                 148
+
+loop_
+_symmetry_equiv_pos_as_xyz
+   'x, y, z'
+   '-x, -y, -z'
+   '-y, x-y, z'
+   'y, -x+y, -z'
+   '-x+y, -x, z'
+   'x-y, x, -z'
+   'x+2/3, y+1/3, z+1/3'
+   '-x+2/3, -y+1/3, -z+1/3'
+   '-y+2/3, x-y+1/3, z+1/3'
+   'y+2/3, -x+y+1/3, -z+1/3'
+   '-x+y+2/3, -x+1/3, z+1/3'
+   'x-y+2/3, x+1/3, -z+1/3'
+   'x+1/3, y+2/3, z+2/3'
+   '-x+1/3, -y+2/3, -z+2/3'
+   '-y+1/3, x-y+2/3, z+2/3'
+   'y+1/3, -x+y+2/3, -z+2/3'
+   '-x+y+1/3, -x+2/3, z+2/3'
+   'x-y+1/3, x+2/3, -z+2/3'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   O(2a)      1.0     0.204200      0.137100      0.093600     Biso  1.000000 O
+   O(1a)      1.0     0.148100     -0.068900      0.194600     Biso  1.000000 O
+   P          1.0     0.287200      0.002100      0.248900     Biso  1.000000 P
+   Ge(1a)     0.8730  0.000000      0.000000      0.147300     Biso  1.000000 Ge
+   Al(1a)     0.1270  0.000000      0.000000      0.147300     Biso  1.000000 Al
+   Na2        0.0420  0.650000      0.000000      0.250000     Biso  1.000000 Na
+   Na(1a)     1.0     0.000000      0.000000      0.000000     Biso  1.000000 Na
+   Na(1b)     1.0     0.000000      0.000000      0.500000     Biso  1.000000 Na
+   Al(1b)     0.0000  0.000000      0.000000      0.644500     Biso  1.000000 Al
+   Ge(1b)     1.0     0.000000      0.000000      0.644500     Biso  1.000000 Ge
+   O(1b)      1.0     0.015000     -0.180100      0.690100     Biso  1.000000 O
+   O(2b)      1.0    -0.183900     -0.175200      0.588600     Biso  1.000000 O
+
+loop_
+   _atom_type_symbol
+   _atom_type_oxidation_number
+   Na+    1
+   Ge4+   +4
+   Al3+   +3
+   P5+    +5
+   O2-    -2

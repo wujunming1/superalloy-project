@@ -1,0 +1,17 @@
+{
+    "RECORDS": [
+        {
+            "_id": {
+                "$oid": "5d21d32424fd9b47ecf15f94"
+            },
+            "alg_recommend": [
+                "agglomerative",
+                "meanshift"
+            ],
+            "date": "2019-07-07 19:10:28",
+            "file_name": "auto-test.xlsx",
+            "type": "User_Based",
+            "user_name": "piki"
+        }
+    ]
+}

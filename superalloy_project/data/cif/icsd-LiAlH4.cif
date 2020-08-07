@@ -1,0 +1,68 @@
+data_22247-ICSD
+#?2010 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+#Commerce on behalf of the United States.  All rights reserved.
+_database_code_ICSD                22247
+_audit_creation_date               1980/1/1/星期二
+_audit_update_record               2010/2/1/星期一
+_chemical_name_systematic          'Lithium Aluminium Hydride'
+_chemical_formula_structural       'Li (Al H4)'
+_chemical_formula_sum              'H4 Al1 Li1'
+_publ_section_title
+;
+The crystal structure of lithium aluminum hydride.
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Inorganic Chemistry' 1967 6 669 671 INOCAJ
+_publ_author_name                  'Sklar, N.;Post, B.'
+_cell_length_a                     4.845(4)
+_cell_length_b                     7.826(4)
+_cell_length_c                     7.917(4)
+_cell_angle_alpha                  90.
+_cell_angle_beta                   112.5(2)
+_cell_angle_gamma                  90.
+_cell_volume                       277.34
+_cell_formula_units_Z              4
+_symmetry_space_group_name_H-M     'P 1 21/c 1'
+_symmetry_Int_Tables_number        14
+_refine_ls_R_factor_all            .032
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'x, -y+.5, z+.5'
+  2	'-x, -y, -z'
+  3	'-x, y+.5, -z+.5'
+  4	'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Al3+	3
+H1-	-1
+Li1+	1
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_B_iso_or_equiv
+Al1 Al3+ 4 e 0.14033(10) 0.20131(6) 0.93151(6) 1. 0 0 
+Li1 Li1+ 4 e 0.56896(82) 0.46604(44) 0.82164(46) 1. 0 0 
+H1 H1- 4 e 0.2005(63) 0.1020(33) 0.7816(36) 1. 0 1.93 
+H2 H1- 4 e 0.312(6) 0.3682(34) 0.9709(34) 1. 0 1.93 
+H3 H1- 4 e 0.2382(60) 0.0911(31) 0.1087(33) 1. 0 1.93 
+H4 H1- 4 e 0.8032(59) 0.2552(36) 0.8760(35) 1. 0 1.93 
+
+#End of data_22247-ICSD
+
+

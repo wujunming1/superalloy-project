@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.AlgorithmEntityMapper">
+  <resultMap id="BaseResultMap" type="entity.AlgorithmEntity">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="algoName" jdbcType="VARCHAR" property="algoName" />
+    <result column="algoLocation" jdbcType="VARCHAR" property="algoLocation" />
+    <result column="algoAbstract" jdbcType="VARCHAR" property="algoAbstract" />
+    <result column="algoDate" jdbcType="VARCHAR" property="algoDate" />
+    <result column="algoSubmission_name" jdbcType="VARCHAR" property="algoSubmissionName" />
+    <result column="algoType" jdbcType="VARCHAR" property="algoType" />
+    <result column="cal_field" jdbcType="VARCHAR" property="calField" />
+  </resultMap>
+  <insert id="insert" parameterType="entity.AlgorithmEntity">
+    insert into algorithm (id, algoName, algoLocation, algoAbstract, algoDate, algoSubmission_name, algoType, cal_field)
+    values (#{id,jdbcType=INTEGER}, #{algoName,jdbcType=VARCHAR}, #{algoLocation,jdbcType=VARCHAR}, #{algoAbstract,jdbcType=VARCHAR}
+    , STR_TO_DATE(#{algoDate},'%Y-%m-%d') , #{algoSubmissionName,jdbcType=VARCHAR}, #{algoType,jdbcType=VARCHAR}, #{calField,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="entity.AlgorithmEntity">
+    insert into data_comment
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="algoName != null">
+        algoName,
+      </if>
+      <if test="algoLocation != null">
+        algoLocation,
+      </if>
+      <if test="algoAbstract != null">
+        algoAbstract,
+      </if>
+      <if test="algoDate != null">
+        algoDate,
+      </if>
+      <if test="algoSubmissionName != null">
+        algoSubmission_name,
+      </if>
+      <if test="algoType != null">
+        algoType,
+      </if>
+      <if test="calField != null">
+        cal_field,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="algoName != null">
+        #{algoName,jdbcType=VARCHAR},
+      </if>
+      <if test="algoLocation != null">
+        #{algoLocation,jdbcType=VARCHAR},
+      </if>
+      <if test="algoAbstract != null">
+        #{algoAbstract,jdbcType=VARCHAR},
+      </if>
+      <if test="algoDate != null">
+        STR_TO_DATE(#{algoDate},'%Y-%m-%d'),
+      </if>
+      <if test="algoSubmissionName != null">
+        #{algoSubmissionName,jdbcType=VARCHAR},
+      </if>
+      <if test="algoType != null">
+        #{algoType,jdbcType=VARCHAR},
+      </if>
+      <if test="calField != null">
+        #{calField,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  
+</mapper>

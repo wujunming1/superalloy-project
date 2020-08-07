@@ -1,0 +1,140 @@
+data_300001-custom
+#======================================================================
+
+# CRYSTAL DATA
+
+#----------------------------------------------------------------------
+_database_code_custom 300001
+
+_chemical_formula_structural          'Li6 P O5 Br'
+_chemical_formula_sum                 'P1 Li6 Br1 O5'
+_chemical_name_common                  £¬£¬handmade
+_cell_length_a                         8.29710
+_cell_length_b                         8.29710
+_cell_length_c                         8.29710
+_cell_angle_alpha                      90
+_cell_angle_beta                       90
+_cell_angle_gamma                      90
+_space_group_name_H-M_alt              'F -4 3 m'
+_space_group_IT_number                 216
+
+loop_
+_symmetry_equiv_pos_as_xyz
+   'x, y, z'
+   '-x, -y, z'
+   '-x, y, -z'
+   'x, -y, -z'
+   'z, x, y'
+   'z, -x, -y'
+   '-z, -x, y'
+   '-z, x, -y'
+   'y, z, x'
+   '-y, z, -x'
+   'y, -z, -x'
+   '-y, -z, x'
+   'y, x, z'
+   '-y, -x, z'
+   'y, -x, -z'
+   '-y, x, -z'
+   'x, z, y'
+   '-x, z, -y'
+   '-x, -z, y'
+   'x, -z, -y'
+   'z, y, x'
+   'z, -y, -x'
+   '-z, y, -x'
+   '-z, -y, x'
+   'x, y+1/2, z+1/2'
+   '-x, -y+1/2, z+1/2'
+   '-x, y+1/2, -z+1/2'
+   'x, -y+1/2, -z+1/2'
+   'z, x+1/2, y+1/2'
+   'z, -x+1/2, -y+1/2'
+   '-z, -x+1/2, y+1/2'
+   '-z, x+1/2, -y+1/2'
+   'y, z+1/2, x+1/2'
+   '-y, z+1/2, -x+1/2'
+   'y, -z+1/2, -x+1/2'
+   '-y, -z+1/2, x+1/2'
+   'y, x+1/2, z+1/2'
+   '-y, -x+1/2, z+1/2'
+   'y, -x+1/2, -z+1/2'
+   '-y, x+1/2, -z+1/2'
+   'x, z+1/2, y+1/2'
+   '-x, z+1/2, -y+1/2'
+   '-x, -z+1/2, y+1/2'
+   'x, -z+1/2, -y+1/2'
+   'z, y+1/2, x+1/2'
+   'z, -y+1/2, -x+1/2'
+   '-z, y+1/2, -x+1/2'
+   '-z, -y+1/2, x+1/2'
+   'x+1/2, y, z+1/2'
+   '-x+1/2, -y, z+1/2'
+   '-x+1/2, y, -z+1/2'
+   'x+1/2, -y, -z+1/2'
+   'z+1/2, x, y+1/2'
+   'z+1/2, -x, -y+1/2'
+   '-z+1/2, -x, y+1/2'
+   '-z+1/2, x, -y+1/2'
+   'y+1/2, z, x+1/2'
+   '-y+1/2, z, -x+1/2'
+   'y+1/2, -z, -x+1/2'
+   '-y+1/2, -z, x+1/2'
+   'y+1/2, x, z+1/2'
+   '-y+1/2, -x, z+1/2'
+   'y+1/2, -x, -z+1/2'
+   '-y+1/2, x, -z+1/2'
+   'x+1/2, z, y+1/2'
+   '-x+1/2, z, -y+1/2'
+   '-x+1/2, -z, y+1/2'
+   'x+1/2, -z, -y+1/2'
+   'z+1/2, y, x+1/2'
+   'z+1/2, -y, -x+1/2'
+   '-z+1/2, y, -x+1/2'
+   '-z+1/2, -y, x+1/2'
+   'x+1/2, y+1/2, z'
+   '-x+1/2, -y+1/2, z'
+   '-x+1/2, y+1/2, -z'
+   'x+1/2, -y+1/2, -z'
+   'z+1/2, x+1/2, y'
+   'z+1/2, -x+1/2, -y'
+   '-z+1/2, -x+1/2, y'
+   '-z+1/2, x+1/2, -y'
+   'y+1/2, z+1/2, x'
+   '-y+1/2, z+1/2, -x'
+   'y+1/2, -z+1/2, -x'
+   '-y+1/2, -z+1/2, x'
+   'y+1/2, x+1/2, z'
+   '-y+1/2, -x+1/2, z'
+   'y+1/2, -x+1/2, -z'
+   '-y+1/2, x+1/2, -z'
+   'x+1/2, z+1/2, y'
+   '-x+1/2, z+1/2, -y'
+   '-x+1/2, -z+1/2, y'
+   'x+1/2, -z+1/2, -y'
+   'z+1/2, y+1/2, x'
+   'z+1/2, -y+1/2, -x'
+   '-z+1/2, y+1/2, -x'
+   '-z+1/2, -y+1/2, x'
+loop_
+   _atom_type_symbol
+   _atom_type_oxidation_number
+   Li+    1
+   P5+    5
+   O2-    -2
+   Br1-   -1
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   P          1.0     0.500000      0.500000      0.500000     Biso  1.000000 P
+   O1         1.0     0.607300      0.607300      0.607300     Biso  1.000000 O
+   O2         1.0     0.750000      0.750000      0.750000     Biso  1.000000 O
+   Br         1.0     0.000000      0.000000      0.000000     Biso  1.000000 Br
+   Li         1.0     0.250000      0.018300      0.750000     Biso  1.000000 Li
+

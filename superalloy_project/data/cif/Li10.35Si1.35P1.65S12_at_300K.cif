@@ -1,0 +1,172 @@
+data_Li10.35Si1.35P1.65S12_at_300K
+_database_code_depnum_ccdc_archive 'CCDC 1438233'
+_chemical_name_systematic ?
+_chemical_name_common     ?
+_chemical_formula_moiety     'Li10.35 P1.65 S12 Si1.35'
+_chemical_formula_sum            'Li10.35 P1.65 S12 Si1.35'
+_chemical_formula_structural     'Li10.35 P1.65 S12 Si1.35'
+_chemical_formula_analytical     ?
+_chemical_formula_iupac     ?
+_chemical_formula_weight    545.641
+_chemical_melting_point     ?
+_symmetry_cell_setting     tetragonal
+_symmetry_space_group_name_H-M     P4_2/nmc:1
+_symmetry_Int_Tables_number      137
+
+_exptl_crystal_density_diffrn    1.914
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_colour            pink
+
+_diffrn_ambient_temperature      300
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_diffrn_source                   time-of-flight
+_diffrn_radiation_wavelength	'0.36 < lambda < 10.18 Ang'
+_diffrn_source_type              J-Parc
+_diffrn_measurement_device_type              'iMateria at J-Parc'
+_diffrn_measured_fraction_theta_full 'not evaluated'
+_pd_calc_method                     'Rietveld Refinement'
+_computing_structure_refinement     Z-Rietveld
+ _computing_publication_material
+    'Oishi, R. et. al., (2009). Nuc. Instrum. Methods Phys. Res. 600, 94-96.'
+
+_iucr_refine_instructions_details 
+'Occupancy of Si1 and P1 is constrained at 0.675 and 0.325, respectively. '
+
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-x,-y,+z
+1/2-y,1/2+x,1/2+z
+1/2+y,1/2-x,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2-z
++y,+x,-z
+-y,-x,-z
+1/2-x,1/2-y,1/2-z
+1/2+x,1/2+y,1/2-z
++y,-x,-z
+-y,+x,-z
++x,-y,+z
+-x,+y,+z
+1/2-y,1/2-x,1/2+z
+1/2+y,1/2+x,1/2+z
+
+_cell_measurement_reflns_used 785
+
+_cell_length_a 8.68385(5)
+_cell_length_b 8.68385(5)
+_cell_length_c 12.55589(10)
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume                     946.830(13)
+_cell_formula_units_Z            2
+_cell_measurement_temperature     300
+_cell_special_details
+; ?
+;
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Li1+	1
+P5+	5
+S2-	2
+Si4+	4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Li1 Li 0.458(4) 0.2550(4) 0.2692(4) 0.1944(3) 9.05156
+Li2 Li 0.916(4) 0 0.5 0.9463(3) 3.73737
+Li3 Li 0.800(8) 0.2440(2) 0.2440(2) 0 14.68352
+Li4 Li 0.829(5) 0 0 0.2476(3) 8.67697
+Si1 Si 0.675 0 0.5 0.69004(9) 2.06803
+P1 P 0.325 0 0.5 0.69004(9) 2.06806
+P2 P 1 0 0 0.5 2.96973
+S1 S 1 0 0.18822(13) 0.40740(9) 2.80081
+S2 S 1 0 0.29734(13) 0.10026(10) 2.68149
+S3 S 1 0 0.69407(13) 0.78954(9) 1.72865
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Li1 0.0754594 0.0324544 0.236004 -0.000745831 0.00989075 -0.0597978
+Li2 0.0720262 0.0533488 0.0166265 0 0 0
+Li3 0.0940234 0.0940234 0.369853 -0.0765271 0.0937886 -0.0937886
+Li4 0.0624853 0.1847230 0.0824729 0 0 0
+Si1 0.0319242 0.0362489 0.01040179 0 0 0
+P1 0.0319246 0.0362492 0.01040215 0 0 0
+P2 0.0326110 0.0326110 0.0476127 0 0 0
+S1 0.0708216 0.01885759 0.0167374 0 0 0.00588234
+S2 0.0459099 0.02122744 0.0347458 0 0 -0.01631265
+S3 0.0309397 0.00653914 0.0282011 0 0 0.0003532044
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+Li1 S1 2.509(4) 1  6
+Li1 S2 2.522(4) 1  1
+Li1 S3 2.393(3) 1  4_454
+Li1 S3 2.387(3) 1  8_656
+Li2 S1 2.7512(13) 1  3
+Li2 S2 2.614(3) 1  1_556
+Li2 S3 2.591(3) 1  1
+Li3 S1 2.577(3) 1  3_554
+Li3 S2 2.508(13) 1  1
+Li4 S1 2.588(4) 1  1
+Li4 S2 3.176(3) 1  1
+Li4 S3 2.6973(12) 1  7_456
+P1 S2 2.0900(14) 1  4_455
+P1 S3 2.0978(13) 1  1
+Si1 S2 2.0900(14) 1  4_455
+Si1 S3 2.0978(13) 1  1
+P2 S1 2.0052(10) 1  1
+Li1 Li1 1.439(9) 1  9
+Li1 Li3 2.452(4) 1  1
+Li1 Li4 3.288(4) 1  1
+Li1 Li4 3.012(4) 1  5
+Li2 Li3 3.1441(7) 1  1_556
+ # - - - - data truncated for brevity - - - -
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+S1 Li2 S1 159.53(14) 4_455  1  3
+S1 Li2 S2   97.55(5)  4_455  1  2_566
+S1 Li2 S3   82.24(13)  4_455  1  2_565
+S2 Li2 S2   84.64(11)  1_556  1  2_566
+S2 Li2 S3   97.11(9)  1_556  1  2_565
+S2 Li2 S3 178.25(17) 1_556  1  1
+S3 Li2 S3   81.13(10)  2_565  1  1
+S1 Li4 S1   78.34(13)  1  1  2
+S1 Li4 S2   86.45(8)  1  1  1
+S1 Li4 S2 164.8(2) 1  1  2
+S1 Li4 S3   97.71(6)  1  1  7_456
+S2 Li4 S2 108.75(14) 1  1  2
+S2 Li4 S3   84.21(16)  1  1  7_456
+S3 Li4 S3 160.08(18) 7_456  1  8_656
+S2 Si1 S2 114.72(12) 3  1  4_455
+S3 Si1 S2 108.74(9) 1  1  3
+S3 Si1 S3 106.90(11) 1  1  2_565
+S2 P1 S2 114.72(12) 3  1  4_455
+S3 P1 S2 108.74(9) 1  1  3
+S3 P1 S3 106.90(11) 1  1  2_565
+S1 P2 S1 109.63(7) 1  1  7_556
+S1 P2 S1 109.15(8) 1  1  2
+ # - - - - data truncated for brevity - - - -

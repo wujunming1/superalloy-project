@@ -1,0 +1,85 @@
+data_421083-ICSD
+#?2010 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+#Commerce on behalf of the United States.  All rights reserved.
+_database_code_ICSD                421083
+_audit_creation_date               2010/08/01
+_chemical_name_systematic
+;
+Hexalithium Tetrathiophosphate(V) Sulfide Iodide - Lt
+;
+_chemical_formula_structural       'Li6 (P S4) (S I)'
+_chemical_formula_sum              'I1 Li6 P1 S5'
+_chemical_name_mineral             Argyrodite
+_publ_section_title
+;
+Lithium argyrodites with phosphorus and arsenic: Order and disorder 
+of lithium atoms, crystal chemistry, and phase transitions
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_journal_issue
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Chemistry - A European Journal' 2010 16 7 2198 2206 CEUJED
+_publ_author_name
+;
+Kong Shiaotong;Deiseroth, H.J.;Reiner, C.;Guen, O.;Neumann, 
+E.;Ritter, C.;Zahn, D.
+;
+_cell_length_a                     12.3217(4)
+_cell_length_b                     7.1377(3)
+_cell_length_c                     12.4490(4)
+_cell_angle_alpha                  90.00000
+_cell_angle_beta                   109.481(3)
+_cell_angle_gamma                  90.00000
+_cell_volume                       1032.19
+_cell_formula_units_Z              4
+_symmetry_space_group_name_H-M     'C 1 c 1'
+_symmetry_Int_Tables_number        9
+_refine_ls_R_factor_all            .07
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'x, -y, z+.5'
+  2	'x, y, z'
+  3	'x+.5, -y+.5, z+.5'
+  4	'x+.5, y+.5, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+I1-	-1
+Li1+	1
+P5+	5
+S2-	-2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_U_iso_or_equiv
+Li1 Li1+ 4 a 0.985(5) 0.305(6) 0.371(5) 1.00000 0 0.018(4) 
+Li2 Li1+ 4 a 0.765(5) 1.017(8) 0.885(4) 1.00000 0 0.018(4) 
+Li3 Li1+ 4 a 0.830(4) 0.515(7) 0.385(4) 1.00000 0 0.018(4) 
+Li4 Li1+ 4 a 0.709(4) 0.742(10) 0.066(4) 1.00000 0 0.018(4) 
+Li5 Li1+ 4 a 0.980(5) 0.953(7) 0.131(4) 1.00000 0 0.018(4) 
+Li6 Li1+ 4 a 0.997(5) 0.415(7) 0.679(4) 1.00000 0 0.018(4) 
+P1 P5+ 4 a 0.74700 0.743(4) 0.62400 1.00000 0 0.008(2) 
+S1 S2- 4 a 0.691(3) 0.983(5) 0.672(3) 1.00000 0 0.0016(17) 
+S2 S2- 4 a 0.685(3) 0.480(5) 0.180(3) 1.00000 0 0.0016(17) 
+S3 S2- 4 a 0.921(2) 0.248(6) 0.174(3) 1.00000 0 0.0016(17) 
+S4 S2- 4 a 0.692(3) 0.734(5) 0.4444(20) 1.00000 0 0.0016(17) 
+S5 S2- 4 a 0.872(4) 0.248(6) 0.490(3) 1.00000 0 0.00253 
+I1 I1- 4 a -0.004(3) 0.747(3) 0.371(2) 1.00000 0 0.015(2) 
+
+#End of data_421083-ICSD
+
+

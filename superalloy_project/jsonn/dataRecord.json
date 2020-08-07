@@ -1,0 +1,12 @@
+{
+    "RECORDS": [
+        {
+            "_id": {
+                "$oid": "5d0b17e27c09f32bf84c1716"
+            },
+            "eCode": "A0453D1060769470A9F0EE436AB748C16770E4C1D500000001",
+            "record": "auto-test.xlsx",
+            "username": "piki"
+        }
+    ]
+}

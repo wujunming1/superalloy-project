@@ -1,0 +1,80 @@
+data_200010-custom
+#======================================================================
+
+# CRYSTAL DATA
+
+#----------------------------------------------------------------------
+
+_database_code_custom 200010
+
+_chemical_formula_structural       'Li7 La3 Sn2 O12'
+_chemical_formula_sum              'La3 Li7 O12 Sn2'
+_chemical_name_common                  ''handmade
+_cell_length_a                         13.12060
+_cell_length_b                         13.12060
+_cell_length_c                         12.54670
+_cell_angle_alpha                      90
+_cell_angle_beta                       90
+_cell_angle_gamma                      90
+_space_group_name_H-M_alt              'I 41/a c d'
+_space_group_IT_number                 142
+
+loop_
+_symmetry_equiv_pos_as_xyz
+   'x, y, z'
+   '-x+1/2, -y+1/2, z+1/2'
+   '-y, x+1/2, z+1/4'
+   'y+1/2, -x, z+3/4'
+   '-x+1/2, y, -z+1/4'
+   'x, -y+1/2, -z+3/4'
+   'y+1/2, x+1/2, -z'
+   '-y, -x, -z+1/2'
+   '-x, -y+1/2, -z+1/4'
+   'x+1/2, y, -z+3/4'
+   'y, -x, -z'
+   '-y+1/2, x+1/2, -z+1/2'
+   'x+1/2, -y+1/2, z'
+   '-x, y, z+1/2'
+   '-y+1/2, -x, z+1/4'
+   'y, x+1/2, z+3/4'
+   'x+1/2, y+1/2, z+1/2'
+   '-x, -y, z'
+   '-y+1/2, x, z+3/4'
+   'y, -x+1/2, z+1/4'
+   '-x, y+1/2, -z+3/4'
+   'x+1/2, -y, -z+1/4'
+   'y, x, -z+1/2'
+   '-y+1/2, -x+1/2, -z'
+   '-x+1/2, -y, -z+3/4'
+   'x, y+1/2, -z+1/4'
+   'y+1/2, -x+1/2, -z+1/2'
+   '-y, x, -z'
+   'x, -y, z+1/2'
+   '-x+1/2, y+1/2, z'
+   '-y, -x+1/2, z+3/4'
+   'y+1/2, x, z+1/4'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+La3+	3
+Li1+	1
+O2-	-2
+Sn4+	4
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   La         1.0     0.126370      0.000000      0.250000     Biso  1.000000 La
+   La         1.0     0.000000      0.250000      0.125000     Biso  1.000000 La
+   Sn         1.0     0.000000      0.000000      0.000000     Biso  1.000000 Sn
+   Li         1.0     0.000000      0.250000      0.375000     Biso  1.000000 Li
+   Li         1.0     0.161700     -0.169300      0.056900     Biso  1.000000 Li
+   Li         1.0     0.323100     -0.073100      0.125000     Biso  1.000000 Li
+   O          1.0     0.277010      0.101670      0.199450     Biso  1.000000 O
+   O          1.0     0.195130      0.283530      0.977000     Biso  1.000000 O
+   O          1.0     0.104060      0.198560      0.284910     Biso  1.000000 O

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.ExperimentDataModelMapper">
+  <resultMap id="BaseResultMap" type="model.insert.ExperimentDataModel">
+    <result column="material_trademark" jdbcType="VARCHAR" property="materialTrademark" />
+    <result column="m_name" jdbcType="VARCHAR" property="mName" />
+    <result column="expcon_name" jdbcType="VARCHAR" property="expconName" />
+    <result column="exp_parasetting" jdbcType="VARCHAR" property="expParasetting" />
+    <result column="exp_device_name" jdbcType="VARCHAR" property="expDeviceName" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="description_id" jdbcType="INTEGER" property="descriptionId" />
+  </resultMap>
+  <insert id="insert" parameterType="model.insert.ExperimentDataModel">
+    insert into experiment_data (material_trademark, m_name, expcon_name, 
+      exp_parasetting, exp_device_name, remark, 
+      description_id)
+    values (#{materialTrademark,jdbcType=VARCHAR}, #{mName,jdbcType=VARCHAR}, #{expconName,jdbcType=VARCHAR}, 
+      #{expParasetting,jdbcType=VARCHAR}, #{expDeviceName,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, 
+      #{descriptionId,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="model.insert.ExperimentDataModel">
+    insert into experiment_data
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="materialTrademark != null">
+        material_trademark,
+      </if>
+      <if test="mName != null">
+        m_name,
+      </if>
+      <if test="expconName != null">
+        expcon_name,
+      </if>
+      <if test="expParasetting != null">
+        exp_parasetting,
+      </if>
+      <if test="expDeviceName != null">
+        exp_device_name,
+      </if>
+      <if test="remark != null">
+        remark,
+      </if>
+      <if test="descriptionId != null">
+        description_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="materialTrademark != null">
+        #{materialTrademark,jdbcType=VARCHAR},
+      </if>
+      <if test="mName != null">
+        #{mName,jdbcType=VARCHAR},
+      </if>
+      <if test="expconName != null">
+        #{expconName,jdbcType=VARCHAR},
+      </if>
+      <if test="expParasetting != null">
+        #{expParasetting,jdbcType=VARCHAR},
+      </if>
+      <if test="expDeviceName != null">
+        #{expDeviceName,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="descriptionId != null">
+        #{descriptionId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+ 
+ 
+</mapper>

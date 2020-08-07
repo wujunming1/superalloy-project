@@ -1,0 +1,110 @@
+data_62177-ICSD
+#?2010 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+#Commerce on behalf of the United States.  All rights reserved.
+_database_code_ICSD                62177
+_audit_creation_date               1988/02/22
+_audit_update_record               2010/02/01
+_chemical_name_systematic
+;
+Sodium Scandium Zirconium Silicophosphate(V) *
+;
+_chemical_formula_structural       'Na3 Zr1.5 Sc0.5 P1.5 Si1.5 O12'
+_chemical_formula_sum              'Na3 O12 P1.5 Sc0.5 Si1.5 Zr1.5'
+_chemical_name_mineral             'Nasicon low'
+_publ_section_title
+;
+The preparation, structure, and conductivity of scandium-substituted 
+NASICONs.
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of Solid State Chemistry' 1985 60 172 181 JSSCBI
+_publ_author_name
+;
+Subramanian, M.A.;Rudolf, P.R.;Clearfield, A.
+;
+_cell_length_a                     15.6160(2)
+_cell_length_b                     9.0188(1)
+_cell_length_c                     9.1841(1)
+_cell_angle_alpha                  90.
+_cell_angle_beta                   123.92(1)
+_cell_angle_gamma                  90.
+_cell_volume                       1073.34
+_cell_formula_units_Z              4
+_symmetry_space_group_name_H-M     'C 1 2/c 1'
+_symmetry_Int_Tables_number        15
+_refine_ls_R_factor_all            .142
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'x, -y, z+.5'
+  2	'-x, -y, -z'
+  3	'-x, y, -z+.5'
+  4	'x, y, z'
+  5	'x+.5, -y+.5, z+.5'
+  6	'-x+.5, -y+.5, -z'
+  7	'-x+.5, y+.5, -z+.5'
+  8	'x+.5, y+.5, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Na1+	1
+O2-	-2
+P5+	5
+Sc3+	3
+Si4+	4
+Zr4+	4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_B_iso_or_equiv
+Zr1 Zr4+ 8 f 0.1010(7) 0.2503(20) 0.0554(9) 0.75 0 0 
+Sc1 Sc3+ 8 f 0.1010(7) 0.2503(20) 0.0554(9) 0.25 0 0 
+P1 P5+ 4 e 0 0.0480(29) 0.25 0.5 0 0 
+Si1 Si4+ 4 e 0 0.0480(29) 0.25 0.5 0 0 
+P2 P5+ 8 f 0.3567(15) 0.1100(24) 0.2628(25) 0.5 0 0 
+Si2 Si4+ 8 f 0.3567(15) 0.1100(24) 0.2628(25) 0.5 0 0 
+O1 O2- 8 f 0.1468(30) 0.4403(30) 0.2130(43) 1. 0 2.1 
+O2 O2- 8 f 0.4366(24) 0.4484(28) 0.0856(31) 1. 0 2.1 
+O3 O2- 8 f 0.2536(19) 0.1852(42) 0.2076(44) 1. 0 2.1 
+O4 O2- 8 f 0.3781(31) 0.1342(38) 0.1199(41) 1. 0 2.1 
+O5 O2- 8 f 0.4484(19) 0.1813(42) 0.4258(39) 1. 0 2.1 
+O6 O2- 8 f 0.0783(24) 0.1462(33) 0.2362(43) 1. 0 2.1 
+Na1 Na1+ 4 d 0.25 0.25 0.5 0.69 0 0 
+Na2 Na1+ 4 e 0.5 0.9081(80) 0.25 0.86 0 0 
+Na3 Na1+ 8 f 0.8186(45) 0.0935(82) 0.8207(85) 0.73 0 0 
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Zr1 Zr4+ 0.0221 0.01007 0.0152 -.00454 0.01704 -.00058
+Sc1 Sc3+ 0.0221 0.01007 0.0152 -.00454 0.01704 -.00058
+P1 P5+ 0.04745 0.00717 0.04278 0 0.04496 0
+Si1 Si4+ 0.04745 0.00717 0.04278 0 0.04496 0
+P2 P5+ 0.04142 0.01432 0.02467 -.00197 0.02833 0.00702
+Si2 Si4+ 0.04142 0.01432 0.02467 -.00197 0.02833 0.00702
+Na1 Na1+ 0.14 0.2064 0.09225 0.1214 0.05481 0.03729
+Na2 Na1+ 0.05518 0.02554 0.1604 0 0.08663 0
+Na3 Na1+ 0.06276 0.1194 0.1693 0.0169 0.04683 0.01757
+#End of data_62177-ICSD
+
+
