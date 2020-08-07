@@ -1,0 +1,2 @@
+,dbscan,kmeans,meanshift,agglomerative,ward,birch,affinity
+auto-test.xlsx,,,"{'bandwidth': 3.121802543942947, 'min_bin_freq': 8}",,,,

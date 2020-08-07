@@ -1,0 +1,2 @@
+,dbscan,kmeans,meanshift,agglomerative,ward,birch,affinity
+auto-test.xlsx,,,,"{'affinity': 2, 'linkage': 2, 'n_clusters': 1}",,,
